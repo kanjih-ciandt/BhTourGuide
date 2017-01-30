@@ -1,17 +1,21 @@
 package com.kanjih.bhtourguide.to;
 
 
+import java.io.Serializable;
 
 /**
  * Created by kneto on 1/24/17.
  */
 
-public class Place {
+public class Place  implements Serializable {
+
+
 
     private String name;
     private String description;
     private String smallDescription;
-    private int imageResourseId;
+    private int imageResourseId = -1;
+    private int imageScreenResource = -1;
     //@// TODO: 1/24/17 include map position
 
 
@@ -24,6 +28,13 @@ public class Place {
         this.name = name;
         this.smallDescription = smallDescription;
         this.imageResourseId = imageResourseId;
+    }
+
+    public Place(String name, String smallDescription, int imageResourseId, int imageScreenResource) {
+        this.name = name;
+        this.smallDescription = smallDescription;
+        this.imageResourseId = imageResourseId;
+        this.imageScreenResource = imageScreenResource;
     }
 
     public String getName() {
@@ -56,5 +67,13 @@ public class Place {
 
     public void setSmallDescription(String smallDescription) {
         this.smallDescription = smallDescription;
+    }
+
+    public int getImageScreenResource() {
+        return imageScreenResource;
+    }
+
+    public void setImageScreenResource(int imageScreenResource) {
+        this.imageScreenResource = imageScreenResource;
     }
 }
