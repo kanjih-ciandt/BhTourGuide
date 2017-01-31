@@ -19,7 +19,7 @@ public class DetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_detail);
         Intent myIntent = getIntent();
 
-        Place place = (Place) myIntent.getSerializableExtra("place");
+        Place place = (Place) myIntent.getSerializableExtra(Place.class.getSimpleName());
 
         ImageView imageView = (ImageView) findViewById(R.id.detail_image_header);
 

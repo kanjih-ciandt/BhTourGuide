@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Place currentPlace = places.get(position);
                 Intent intent = new Intent(MainActivity.this, DetailActivity.class);
-                intent.putExtra("place", currentPlace);
+                intent.putExtra(Place.class.getSimpleName(), currentPlace);
                 startActivity(intent);
 
             }
