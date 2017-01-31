@@ -1,6 +1,8 @@
 package com.kanjih.bhtourguide;
 
 import android.content.Intent;
+import android.support.design.widget.TabLayout;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -20,36 +22,22 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.place_list);
+        setContentView(R.layout.activity_main);
 
-        final ArrayList<Place> places = new ArrayList<Place>();
-        //Praca da liberdade
-        places.add(new Place(R.string.freedom_square_title, R.string.freedom_square, R.string.freedom_square_small_desc,R.mipmap.square,R.drawable.praca_da_liberdade));
-        //igreja da pampulha
-        places.add(new Place(R.string.church_assisi_title,R.string.church_assisi, R.string.church_assisi_small_desc, R.mipmap.church_assis,R.drawable.igreja_sao_francisco));
-        //mercado central
-        places.add(new Place(R.string.central_market_title,R.string.central_market, R.string.central_market_small_desc, R.mipmap.central_market,R.drawable.mercado_central));
-        //Parque Mangabeiras
-        places.add(new Place(R.string.mangabeira_title,R.string.mangabeira,R.string.mangabeira_small_desc, R.mipmap.mangabeira,R.drawable.parque_mangabeira));
+        // Find the view pager that will allow the user to swipe between fragments
+        ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
+
+        // Create an adapter that knows which fragment should be shown on each page
+
+        FragmentClassAdapter adapter = new FragmentClassAdapter(getSupportFragmentManager(), getString(R.string.menu_public_places), getString(R.string.menu_restaurants), getString(R.string.menu_pubs), getString(R.string.menu_drinks));
 
 
-        PlaceAdapter placeAdapter = new PlaceAdapter(this, places,0);
+        // Set the adapter onto the view pager
+        viewPager.setAdapter(adapter);
 
-        ListView listView = (ListView) findViewById(R.id.list);
-        listView.setAdapter(placeAdapter);
-
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Place currentPlace = places.get(position);
-                Intent intent = new Intent(MainActivity.this, DetailActivity.class);
-                intent.putExtra(Place.class.getSimpleName(), currentPlace);
-                startActivity(intent);
-
-            }
-        });
-
+        // Give the TabLayout the ViewPager
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
+        tabLayout.setupWithViewPager(viewPager);
 
 
 

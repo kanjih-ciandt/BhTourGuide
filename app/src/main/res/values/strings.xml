@@ -2,6 +2,12 @@
     <string name="app_name">Bh Tour Guide</string>
     <string name="app_details">Details</string>
 
+    <string name="menu_public_places">Public Place</string>
+    <string name="menu_restaurants">Restaurants</string>
+    <string name="menu_pubs">Pubs</string>
+    <string name="menu_drinks">Drinks</string>
+
+    <!-- public places -->
     <!-- Freedom Square -->
     <string name="freedom_square_title">Freedom Square</string>
     <string name="freedom_square_small_desc">The large park-filled that was designed to be the hub of state administration and power.</string>
@@ -18,4 +24,54 @@
     <string name="mangabeira_title">Mangabeira Park</string>
     <string name="mangabeira_small_desc">This large park at the edge of the city spreads across the steep slope of the Serra do Curral</string>
     <string name="mangabeira">This large park at the edge of the city spreads across the steep slope of the Serra do Curral, where the source streams of the Rio das Velhas join. Within the park are a primeval forest, a lake, several springs, playing fields, children\'s rides, walking and jogging paths, an open-air theater, and an amphitheater.Buses leave from the entrance to loop through the park, stopping at various attractions including the Mirante da Mata, where there is a sweeping view of Belo Horizonte. Praça do Papa, from which there is also a good city view, was named for Pope John Paul II, who conducted a mass here during his visit to Brazil in 1980. Guides love to point out Rua do Amendoim, where an optical illusion makes cars appear to defy gravity by rolling uphill.</string>
+
+
+    <!-- restaurantes -->
+
+    <string name="xapuri_title">Xapuri</string>
+    <string name="xapuri_small_desc">Great restaurant</string>
+    <string name="xapuri">bla bla bla.</string>
+
+    <string name="nutreal_title">Nutreal</string>
+    <string name="nutreal_small_desc">Great restaurant</string>
+    <string name="nutreal">bla bla bla.</string>
+
+    <string name="gluton_title">Gluton</string>
+    <string name="gluton_small_desc">Great restaurant</string>
+    <string name="gluton">bla bla bla.</string>
+
+    <!-- pubs -->
+    <string name="bebs_title">Beb\' Bar</string>
+    <string name="bebs_small_desc">The best pub</string>
+    <string name="bebs">bla bla bla.</string>
+
+    <string name="duke_title">Duke\'N\'Duke</string>
+    <string name="duke_small_desc">Best Burguer - Fine Music - Real Bear</string>
+    <string name="duke">bla bla bla.</string>
+
+    <string name="quermesse_title">Quermesse</string>
+    <string name="quermesse_small_desc">Quermesse apetitizer, drinks and great food</string>
+    <string name="quermesse">bla bla bla.</string>
+
+    <!-- drinks -->
+    <string name="valeverde_title">Vale Verde Cachaça</string>
+    <string name="valeverde_small_desc">Cachaça campea</string>
+    <string name="valeverde">bla bla bla.</string>
+
+    <string name="boazinha_title">Boazinha</string>
+    <string name="boazinha_small_desc">The best</string>
+    <string name="boaziha">bla bla bla.</string>
+
+    <string name="havana_title">Cachaça Havanar</string>
+    <string name="havana_small_desc">Great one</string>
+    <string name="havana">bla bla bla.</string>
+
+    <string name="maria_title">Maria Andante Cachaça</string>
+    <string name="maria_small_desc">The cousin of Whisky</string>
+    <string name="maria">bla bla bla.</string>
+
+
+
+
+
 </resources>
