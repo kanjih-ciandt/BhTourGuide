@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         final ArrayList<Place> places = new ArrayList<Place>();
         //Praca da liberdade
-        places.add(new Place(R.string.freedom_square_title, R.string.freedom_square, R.string.freedom_square_small_desc,R.mipmap.square,R.drawable.mercado_central));
+        places.add(new Place(R.string.freedom_square_title, R.string.freedom_square, R.string.freedom_square_small_desc,R.mipmap.square,R.drawable.praca_da_liberdade));
         //igreja da pampulha
         places.add(new Place(R.string.church_assisi_title,R.string.church_assisi, R.string.church_assisi_small_desc, R.mipmap.church_assis,R.drawable.igreja_sao_francisco));
         //mercado central
