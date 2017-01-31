@@ -23,10 +23,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.place_list);
 
         final ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place("Freedom Square","bla.....", R.mipmap.square));
-        places.add(new Place("The Church of St. Francis of Assisi ","bla.....", R.mipmap.church_assis));
-        places.add(new Place("Central Market","bla.....", R.mipmap.central_market));
-        places.add(new Place("Mangabeira Park","bla.....", R.mipmap.mangabeira,R.drawable.mangabeira));
+        //Praca da liberdade
+        places.add(new Place(R.string.freedom_square_title, R.string.freedom_square, R.string.freedom_square_small_desc,R.mipmap.square,R.drawable.mercado_central));
+        //igreja da pampulha
+        places.add(new Place(R.string.church_assisi_title,R.string.church_assisi, R.string.church_assisi_small_desc, R.mipmap.church_assis,R.drawable.igreja_sao_francisco));
+        //mercado central
+        places.add(new Place(R.string.central_market_title,R.string.central_market, R.string.central_market_small_desc, R.mipmap.central_market,R.drawable.mercado_central));
+        //Parque Mangabeiras
+        places.add(new Place(R.string.mangabeira_title,R.string.mangabeira,R.string.mangabeira_small_desc, R.mipmap.mangabeira,R.drawable.mangabeira));
 
 
         PlaceAdapter placeAdapter = new PlaceAdapter(this, places,0);

@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">BhTourGuide</string>
+    <string name="app_name">Bh Tour Guide</string>
+    <string name="app_details">Details</string>
+
+    <!-- Freedom Square -->
+    <string name="freedom_square_title">Freedom Square</string>
+    <string name="freedom_square_small_desc">The large park-filled that was designed to be the hub of state administration and power.</string>
+    <string name="freedom_square">The large park-filled plaza in the city center was designed to be the hub of state administration and power, with the Government Building and the public library. The Art Deco style Palácio Cristo Rio was built in the 1940s, and towering above the square is Edificio Niemeyer, a sinuously curved apartment building that is one of his most famous early works.</string>
+    <!-- Church Assis -->
+    <string name="church_assisi_title">The Church of St. Francis of Assisi</string>
+    <string name="church_assisi_small_desc">The first of architect Oscar Niemeyer\'s major works.</string>
+    <string name="church_assisi">The first of architect Oscar Niemeyer\'s major works stands above a lake in the park-filled suburb of Pampulha. The parabolic curves of the church\'s roof seem to anticipate architectural forms he later used in Brasilia. The exterior is covered in azulejo tile panels by Candido Portinari, and more of his work decorates the interior. The building\'s design caused such a furor in the church hierarchy that, although it was completed several decades earlier, it was not consecrated until 1969. The surrounding gardens were designed by preeminent landscape architect Roberto Burle Marx. Walk around the lake to admire the church\'s silhouette mirrored in the lake and to see the curved Casa do Baile, scene of fashionable parties and dances in the 1940s.</string>
+    <!-- Central Market -->
+    <string name="central_market_title">Central Market</string>
+    <string name="central_market_small_desc">One of the liveliest and most colorful places in the city is the huge market building.</string>
+    <string name="central_market">One of the liveliest and most colorful places in the city is the huge market building, where you\'ll find everything from food to canaries in its 400-odd stalls. Vendors appear to be in perpetual motion as they hawk fruits and vegetables, cheese, sausages, religious items, herbal medicines, candy, drinks, meats, flowers, nuts, household utensils, prepared foods, pets, and handicrafts. Stop to watch as the fruit sellers peel and slice whole pineapples with a machete, and wait your turn for a seat in one of the tiny lunch stands to sample local dishes. The market is open daily, although only until 1 pm on Sundays and holidays.</string>
+    <!-- mangabeira-->
+    <string name="mangabeira_title">Mangabeira Park</string>
+    <string name="mangabeira_small_desc">This large park at the edge of the city spreads across the steep slope of the Serra do Curral</string>
+    <string name="mangabeira">This large park at the edge of the city spreads across the steep slope of the Serra do Curral, where the source streams of the Rio das Velhas join. Within the park are a primeval forest, a lake, several springs, playing fields, children\'s rides, walking and jogging paths, an open-air theater, and an amphitheater.Buses leave from the entrance to loop through the park, stopping at various attractions including the Mirante da Mata, where there is a sweeping view of Belo Horizonte. Praça do Papa, from which there is also a good city view, was named for Pope John Paul II, who conducted a mass here during his visit to Brazil in 1980. Guides love to point out Rua do Amendoim, where an optical illusion makes cars appear to defy gravity by rolling uphill.</string>
 </resources>

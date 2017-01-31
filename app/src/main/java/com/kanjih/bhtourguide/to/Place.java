@@ -11,46 +11,44 @@ public class Place  implements Serializable {
 
 
 
-    private String name;
-    private String description;
-    private String smallDescription;
+    private int name;
+    private int descriptionStringId = -1;
+    private int smallDescription;
     private int imageResourseId = -1;
     private int imageScreenResource = -1;
     //@// TODO: 1/24/17 include map position
 
 
-    public Place(String name, String smallDescription) {
+    public Place(int name, int descriptionStringId, int smallDescription, int imageResourseId, int imageScreenResource) {
         this.name = name;
-        this.smallDescription = smallDescription;
-    }
-
-    public Place(String name, String smallDescription, int imageResourseId) {
-        this.name = name;
-        this.smallDescription = smallDescription;
-        this.imageResourseId = imageResourseId;
-    }
-
-    public Place(String name, String smallDescription, int imageResourseId, int imageScreenResource) {
-        this.name = name;
+        this.descriptionStringId = descriptionStringId;
         this.smallDescription = smallDescription;
         this.imageResourseId = imageResourseId;
         this.imageScreenResource = imageScreenResource;
     }
 
-    public String getName() {
+    public int getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(int name) {
         this.name = name;
     }
 
-    public String getDescription() {
-        return description;
+    public int getDescriptionStringId() {
+        return descriptionStringId;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setDescriptionStringId(int descriptionStringId) {
+        this.descriptionStringId = descriptionStringId;
+    }
+
+    public int getSmallDescription() {
+        return smallDescription;
+    }
+
+    public void setSmallDescription(int smallDescription) {
+        this.smallDescription = smallDescription;
     }
 
     public int getImageResourseId() {
@@ -59,14 +57,6 @@ public class Place  implements Serializable {
 
     public void setImageResourseId(int imageResourseId) {
         this.imageResourseId = imageResourseId;
-    }
-
-    public String getSmallDescription() {
-        return smallDescription;
-    }
-
-    public void setSmallDescription(String smallDescription) {
-        this.smallDescription = smallDescription;
     }
 
     public int getImageScreenResource() {
