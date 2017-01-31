@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         //mercado central
         places.add(new Place(R.string.central_market_title,R.string.central_market, R.string.central_market_small_desc, R.mipmap.central_market,R.drawable.mercado_central));
         //Parque Mangabeiras
-        places.add(new Place(R.string.mangabeira_title,R.string.mangabeira,R.string.mangabeira_small_desc, R.mipmap.mangabeira,R.drawable.mangabeira));
+        places.add(new Place(R.string.mangabeira_title,R.string.mangabeira,R.string.mangabeira_small_desc, R.mipmap.mangabeira,R.drawable.parque_mangabeira));
 
 
         PlaceAdapter placeAdapter = new PlaceAdapter(this, places,0);
