@@ -36,24 +36,23 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
 
     @Override
     public View getView(final int position, View convertView, ViewGroup parent) {
-        // Check if the existing view is being reused, otherwise inflate the view
-        View listItemView = convertView;
 
-        if(listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(
+        // Check if the existing view is being reused, otherwise inflate the view
+        if(convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
         }
 
-        View textView = listItemView.findViewById(R.id.text_container);
+        View textView = convertView.findViewById(R.id.text_container);
         textView.setBackgroundResource(colorResource);
 
         // Get the {@link AndroidFlavor} object located at this position in the list
         Place currentPlace = getItem(position);
 
         //get screem elements
-        TextView title = (TextView) listItemView.findViewById(R.id.place_title);
-        TextView smallDescription = (TextView) listItemView.findViewById(R.id.place_small_description);
-        CircleImageView imageView = (CircleImageView) listItemView.findViewById(R.id.image);
+        TextView title = (TextView) convertView.findViewById(R.id.place_title);
+        TextView smallDescription = (TextView) convertView.findViewById(R.id.place_small_description);
+        CircleImageView imageView = (CircleImageView) convertView.findViewById(R.id.image);
 
         title.setText(currentPlace.getName());
         smallDescription.setText(currentPlace.getSmallDescription());
@@ -67,7 +66,7 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
 
         // Return the whole list item layout (containing 2 TextViews and an ImageView)
         // so that it can be shown in the ListView
-        return listItemView;
+        return convertView;
     }
 
 

@@ -29,46 +29,46 @@
     <!-- restaurantes -->
 
     <string name="xapuri_title">Xapuri</string>
-    <string name="xapuri_small_desc">Great restaurant</string>
-    <string name="xapuri">bla bla bla.</string>
+    <string name="xapuri_small_desc">it is the gastronomic reference of Mineiro\' Food</string>
+    <string name="xapuri">it is the gastronomic reference of Mineiro\' Food</string>
 
     <string name="nutreal_title">Nutreal</string>
-    <string name="nutreal_small_desc">Great restaurant</string>
-    <string name="nutreal">bla bla bla.</string>
+    <string name="nutreal_small_desc">The best tropeiro of BH</string>
+    <string name="nutreal">The best tropeiro of BH.</string>
 
     <string name="gluton_title">Gluton</string>
-    <string name="gluton_small_desc">Great restaurant</string>
-    <string name="gluton">bla bla bla.</string>
+    <string name="gluton_small_desc">The best place to eat and drink wines</string>
+    <string name="gluton">The best place to eat and drink wines</string>
 
     <!-- pubs -->
     <string name="bebs_title">Beb\' Bar</string>
-    <string name="bebs_small_desc">The best pub</string>
-    <string name="bebs">bla bla bla.</string>
+    <string name="bebs_small_desc">The best pub of Minas</string>
+    <string name="bebs">The best pub of Minas</string>
 
     <string name="duke_title">Duke\'N\'Duke</string>
     <string name="duke_small_desc">Best Burguer - Fine Music - Real Bear</string>
-    <string name="duke">bla bla bla.</string>
+    <string name="duke">Best Burguer - Fine Music - Real Bear</string>
 
     <string name="quermesse_title">Quermesse</string>
     <string name="quermesse_small_desc">Quermesse apetitizer, drinks and great food</string>
-    <string name="quermesse">bla bla bla.</string>
+    <string name="quermesse">Quermesse apetitizer, drinks and great food</string>
 
     <!-- drinks -->
     <string name="valeverde_title">Vale Verde Cachaça</string>
-    <string name="valeverde_small_desc">Cachaça campea</string>
-    <string name="valeverde">bla bla bla.</string>
+    <string name="valeverde_small_desc">Alcohol by volume 40%</string>
+    <string name="valeverde">Voluntary Certification of INMETRO. The only cachaça with 100% of income reverted to environmental conservation actions.</string>
 
     <string name="boazinha_title">Boazinha</string>
-    <string name="boazinha_small_desc">The best</string>
-    <string name="boaziha">bla bla bla.</string>
+    <string name="boazinha_small_desc">Alcohol by volume 40%</string>
+    <string name="boaziha">The best.</string>
 
-    <string name="havana_title">Cachaça Havanar</string>
-    <string name="havana_small_desc">Great one</string>
-    <string name="havana">bla bla bla.</string>
+    <string name="havana_title">Cachaça Havana</string>
+    <string name="havana_small_desc">Alcohol by volume 48%</string>
+    <string name="havana">You will love.</string>
 
     <string name="maria_title">Maria Andante Cachaça</string>
-    <string name="maria_small_desc">The cousin of Whisky</string>
-    <string name="maria">bla bla bla.</string>
+    <string name="maria_small_desc">Alcohol by volume 42%</string>
+    <string name="maria">The cousin of Whisky.</string>
 
 
 
